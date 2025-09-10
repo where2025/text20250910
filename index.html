@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN"> <!-- 建议改为中文编码标识 -->
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 适配手机 -->
+    <title>多行显示示例</title>
 </head>
+<!-- 重要：一个HTML只能有1个<head>和1个<body>，删除重复标签 -->
 <body>
-    大脚好呀！
-</body>
-<html>
-    
+    <!-- 方案1：用<br>标签强制换行（最简单，适合少量内容） -->
+    <!-- <h3>方案1：<br>标签换行</h3> -->
+    大脚好呀！1<br> <!-- <br> = break row，强制换行 -->
+    大脚好呀！2<br>
+    大脚好呀！3<br>
